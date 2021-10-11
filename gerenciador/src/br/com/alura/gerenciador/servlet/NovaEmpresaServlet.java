@@ -27,6 +27,7 @@ public class NovaEmpresaServlet extends HttpServlet {
 		
 		String nomeEmpresa = request.getParameter("nome");
 		String paramDataEmpresa = request.getParameter("data");
+	
 		
 		Date dataAbertura = null;
 		try {
